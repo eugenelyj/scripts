@@ -45,10 +45,13 @@ def apply_mapping_rules(entry, field):
         original_value = original_value.replace('{', '')
         original_value = original_value.replace('}', '')
 
+        contains_workshop = 'workshop' in original_value
         for key, mapped_value in MAPPING_RULES.items():
             flag = False
             for keyword in key:
                 if keyword in original_value:
+                    if contains_workshop:
+                        mapped_value += ' Workshops'
                     entry[field] = f'{{{mapped_value}}}'
                     flag = True
                     break
@@ -110,8 +113,8 @@ def write_bib_file(bib_database, output_file_path):
         bibtex_file.write(writer.write(bib_database))
 
 # Update these file paths as necessary
-input_file_path = 'body/ref.bib'  # Path to your .bib file
-output_file_path = 'body/ref_modified.bib'  # Path to save the modified .bib file
+input_file_path = 'body/ref.bib.bk'  # Path to your .bib file
+output_file_path = 'body/ref.bib'  # Path to save the modified .bib file
 
 # Process the file
 bib_database = read_and_capitalize_titles(input_file_path)
