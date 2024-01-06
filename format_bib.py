@@ -24,18 +24,18 @@ MAPPING_RULES = {
     frozenset(['mm', 'acm multimedia']): 'In the Proceedings of ACM International Conference on Multimedia',
     frozenset(['ral', 'ieee robotics and automation letters']): 'IEEE Robotics and Automation Letters',
     frozenset(['corl', 'conference on robot learning']): 'In the Proceedings of Conference on Robot Learning',
-    frozenset(['siggraph', 'special interest group on computer graphics and interactive techniques']): 'In the Proceedings of ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques',
     frozenset(['siggraph asia', 'special interest group on computer graphics and interactive techniques asia']): 'In the Proceedings of ACM SIGGRAPH Asia Conference on Computer Graphics and Interactive Techniques',
+    frozenset(['siggraph', 'special interest group on computer graphics and interactive techniques']): 'In the Proceedings of ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques',
     frozenset(['tog', 'acm transactions on graphics']): 'ACM Transactions on Graphics',
     frozenset(['tvcg', 'ieee transactions on visualization and computer graphics']): 'IEEE Transactions on Visualization and Computer Graphics',
     frozenset(['tip', 'ieee transactions on image processing']): 'IEEE Transactions on Image Processing',
     frozenset(['miccai', 'medical image computing and computer assisted intervention']): 'In the Proceedings of International Conference on Medical Image Computing and Computer Assisted Intervention',
     frozenset(['ismar', 'international symposium on mixed and augmented reality']): 'In the Proceedings of IEEE International Symposium on Mixed and Augmented Reality',
-    frozenset(['vr', 'virtual reality']): 'In the Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces',
+    frozenset(['ieee vr', 'virtual reality']): 'In the Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces',
     frozenset(['3dv', 'international conference on 3d vision']): 'In the Proceedings of International Conference on 3D Vision',
     frozenset(['wacv', 'winter conference on applications of computer vision']): 'In the Proceedings of IEEE Winter Conference on Applications of Computer Vision',
     frozenset(['accv', 'asian conference on computer vision']): 'In the Proceedings of Asian Conference on Computer Vision',
-    frozenset(['tro', 'ieee transactions on robotics']): 'IEEE Transactions on Robotics',
+    frozenset(['ieee tro', 'ieee transactions on robotics']): 'IEEE Transactions on Robotics',
 }
 
 
